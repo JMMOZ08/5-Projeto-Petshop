@@ -1,0 +1,89 @@
+/*fonte e alinhamaneto para o body*/
+body {
+    font-family: "Montserrat-Bold";
+    text-align: center;
+}
+
+/*fonte para todos os tamanhos*/
+h1, h2, h3, h4, h5, h6 {  
+    font-family: "Montserrat-Bold";
+}
+
+/* Cabeçalho*/
+.big-heading {
+    font-family: 'Montserrat-Black, sans-serif';  
+    font-size: 3.5rem;  
+    line-height: 1.5;  
+    font-weight: 900;
+}
+
+/* tamanho do layout da pagina */
+.container-fluid {
+    padding: 7% 15%;
+}
+
+/*cor da ultima seção e fonte*/
+.colored-section {
+    background-color: #ff4c68;
+    color: rgb(230, 220, 220);
+}
+
+/*cor da seção do meio*/
+.white-section {
+    background-color: rgb(235, 231, 231);
+}
+
+/* cor, tamanho e alinhamento da primeira seção */
+#title .container-fluid {
+    background-color: #1c65ad;
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+
+/*aumento das seções */
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+/*alinhamento menus direita*/
+.nav-item {
+    padding: 0 18px;
+}
+
+/*fonte dos menus direita*/
+.nav-link {
+    font-size: 1.5rem;
+    font-family: "Montserrat-black";
+}
+
+/*fonte do titulo*/
+.navbar-brand {
+    font-family: "Montserrat-black";
+    font-size: 4.0rem;
+    font-weight: bold;
+}
+
+/* imagem do dog */
+.title-image {
+    width: 40%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 10%;
+}
+
+/* cores da seção*/
+.icon:hover{
+    color: #ff4c68;
+}
+
+/* Seção de testemunho*/
+.testimonial-text {
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
